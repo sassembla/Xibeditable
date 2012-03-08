@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13030277150882AD00DBCB47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13030276150882AD00DBCB47 /* UIKit.framework */; };
+		13030279150882AE00DBCB47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13030278150882AD00DBCB47 /* Foundation.framework */; };
+		1303027B150882AE00DBCB47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1303027A150882AE00DBCB47 /* CoreGraphics.framework */; };
+		13030281150882AE00DBCB47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1303027F150882AE00DBCB47 /* InfoPlist.strings */; };
+		13030283150882AE00DBCB47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13030282150882AE00DBCB47 /* main.m */; };
+		13030287150882AE00DBCB47 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13030286150882AE00DBCB47 /* TestAppDelegate.m */; };
+		1303028F150882AE00DBCB47 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1303028E150882AE00DBCB47 /* SenTestingKit.framework */; };
+		13030290150882AE00DBCB47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13030276150882AD00DBCB47 /* UIKit.framework */; };
+		13030291150882AE00DBCB47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13030278150882AD00DBCB47 /* Foundation.framework */; };
+		13030299150882AE00DBCB47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13030297150882AE00DBCB47 /* InfoPlist.strings */; };
+		1303029C150882AE00DBCB47 /* XibeditableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1303029B150882AE00DBCB47 /* XibeditableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13030292150882AE00DBCB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13030269150882AD00DBCB47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13030271150882AD00DBCB47;
+			remoteInfo = Xibeditable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13030272150882AD00DBCB47 /* Xibeditable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xibeditable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13030276150882AD00DBCB47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13030278150882AD00DBCB47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1303027A150882AE00DBCB47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1303027E150882AE00DBCB47 /* Xibeditable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Xibeditable-Info.plist"; sourceTree = "<group>"; };
+		13030280150882AE00DBCB47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13030282150882AE00DBCB47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13030284150882AE00DBCB47 /* Xibeditable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Xibeditable-Prefix.pch"; sourceTree = "<group>"; };
+		13030285150882AE00DBCB47 /* TestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		13030286150882AE00DBCB47 /* TestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+		1303028D150882AE00DBCB47 /* XibeditableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XibeditableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1303028E150882AE00DBCB47 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		13030296150882AE00DBCB47 /* XibeditableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XibeditableTests-Info.plist"; sourceTree = "<group>"; };
+		13030298150882AE00DBCB47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1303029A150882AE00DBCB47 /* XibeditableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XibeditableTests.h; sourceTree = "<group>"; };
+		1303029B150882AE00DBCB47 /* XibeditableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibeditableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1303026F150882AD00DBCB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13030277150882AD00DBCB47 /* UIKit.framework in Frameworks */,
+				13030279150882AE00DBCB47 /* Foundation.framework in Frameworks */,
+				1303027B150882AE00DBCB47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13030289150882AE00DBCB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1303028F150882AE00DBCB47 /* SenTestingKit.framework in Frameworks */,
+				13030290150882AE00DBCB47 /* UIKit.framework in Frameworks */,
+				13030291150882AE00DBCB47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13030267150882AD00DBCB47 = {
+			isa = PBXGroup;
+			children = (
+				1303027C150882AE00DBCB47 /* Xibeditable */,
+				13030294150882AE00DBCB47 /* XibeditableTests */,
+				13030275150882AD00DBCB47 /* Frameworks */,
+				13030273150882AD00DBCB47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13030273150882AD00DBCB47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13030272150882AD00DBCB47 /* Xibeditable.app */,
+				1303028D150882AE00DBCB47 /* XibeditableTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13030275150882AD00DBCB47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13030276150882AD00DBCB47 /* UIKit.framework */,
+				13030278150882AD00DBCB47 /* Foundation.framework */,
+				1303027A150882AE00DBCB47 /* CoreGraphics.framework */,
+				1303028E150882AE00DBCB47 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1303027C150882AE00DBCB47 /* Xibeditable */ = {
+			isa = PBXGroup;
+			children = (
+				13030285150882AE00DBCB47 /* TestAppDelegate.h */,
+				13030286150882AE00DBCB47 /* TestAppDelegate.m */,
+				1303027D150882AE00DBCB47 /* Supporting Files */,
+			);
+			path = Xibeditable;
+			sourceTree = "<group>";
+		};
+		1303027D150882AE00DBCB47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1303027E150882AE00DBCB47 /* Xibeditable-Info.plist */,
+				1303027F150882AE00DBCB47 /* InfoPlist.strings */,
+				13030282150882AE00DBCB47 /* main.m */,
+				13030284150882AE00DBCB47 /* Xibeditable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13030294150882AE00DBCB47 /* XibeditableTests */ = {
+			isa = PBXGroup;
+			children = (
+				1303029A150882AE00DBCB47 /* XibeditableTests.h */,
+				1303029B150882AE00DBCB47 /* XibeditableTests.m */,
+				13030295150882AE00DBCB47 /* Supporting Files */,
+			);
+			path = XibeditableTests;
+			sourceTree = "<group>";
+		};
+		13030295150882AE00DBCB47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13030296150882AE00DBCB47 /* XibeditableTests-Info.plist */,
+				13030297150882AE00DBCB47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13030271150882AD00DBCB47 /* Xibeditable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1303029F150882AE00DBCB47 /* Build configuration list for PBXNativeTarget "Xibeditable" */;
+			buildPhases = (
+				1303026E150882AD00DBCB47 /* Sources */,
+				1303026F150882AD00DBCB47 /* Frameworks */,
+				13030270150882AD00DBCB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Xibeditable;
+			productName = Xibeditable;
+			productReference = 13030272150882AD00DBCB47 /* Xibeditable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1303028C150882AE00DBCB47 /* XibeditableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130302A2150882AE00DBCB47 /* Build configuration list for PBXNativeTarget "XibeditableTests" */;
+			buildPhases = (
+				13030288150882AE00DBCB47 /* Sources */,
+				13030289150882AE00DBCB47 /* Frameworks */,
+				1303028A150882AE00DBCB47 /* Resources */,
+				1303028B150882AE00DBCB47 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13030293150882AE00DBCB47 /* PBXTargetDependency */,
+			);
+			name = XibeditableTests;
+			productName = XibeditableTests;
+			productReference = 1303028D150882AE00DBCB47 /* XibeditableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13030269150882AD00DBCB47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = KISSAKI;
+			};
+			buildConfigurationList = 1303026C150882AD00DBCB47 /* Build configuration list for PBXProject "Xibeditable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13030267150882AD00DBCB47;
+			productRefGroup = 13030273150882AD00DBCB47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13030271150882AD00DBCB47 /* Xibeditable */,
+				1303028C150882AE00DBCB47 /* XibeditableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13030270150882AD00DBCB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13030281150882AE00DBCB47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1303028A150882AE00DBCB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13030299150882AE00DBCB47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1303028B150882AE00DBCB47 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1303026E150882AD00DBCB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13030283150882AE00DBCB47 /* main.m in Sources */,
+				13030287150882AE00DBCB47 /* TestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13030288150882AE00DBCB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1303029C150882AE00DBCB47 /* XibeditableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13030293150882AE00DBCB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13030271150882AD00DBCB47 /* Xibeditable */;
+			targetProxy = 13030292150882AE00DBCB47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1303027F150882AE00DBCB47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13030280150882AE00DBCB47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13030297150882AE00DBCB47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13030298150882AE00DBCB47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1303029D150882AE00DBCB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1303029E150882AE00DBCB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		130302A0150882AE00DBCB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Xibeditable/Xibeditable-Prefix.pch";
+				INFOPLIST_FILE = "Xibeditable/Xibeditable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		130302A1150882AE00DBCB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Xibeditable/Xibeditable-Prefix.pch";
+				INFOPLIST_FILE = "Xibeditable/Xibeditable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		130302A3150882AE00DBCB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Xibeditable.app/Xibeditable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Xibeditable/Xibeditable-Prefix.pch";
+				INFOPLIST_FILE = "XibeditableTests/XibeditableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		130302A4150882AE00DBCB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Xibeditable.app/Xibeditable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Xibeditable/Xibeditable-Prefix.pch";
+				INFOPLIST_FILE = "XibeditableTests/XibeditableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1303026C150882AD00DBCB47 /* Build configuration list for PBXProject "Xibeditable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1303029D150882AE00DBCB47 /* Debug */,
+				1303029E150882AE00DBCB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1303029F150882AE00DBCB47 /* Build configuration list for PBXNativeTarget "Xibeditable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130302A0150882AE00DBCB47 /* Debug */,
+				130302A1150882AE00DBCB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		130302A2150882AE00DBCB47 /* Build configuration list for PBXNativeTarget "XibeditableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130302A3150882AE00DBCB47 /* Debug */,
+				130302A4150882AE00DBCB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13030269150882AD00DBCB47 /* Project object */;
+}
