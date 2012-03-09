@@ -18,6 +18,19 @@
 		13030291150882AE00DBCB47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13030278150882AD00DBCB47 /* Foundation.framework */; };
 		13030299150882AE00DBCB47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13030297150882AE00DBCB47 /* InfoPlist.strings */; };
 		1303029C150882AE00DBCB47 /* XibeditableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1303029B150882AE00DBCB47 /* XibeditableTests.m */; };
+		13045A1315098B5700124C43 /* MessengerIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 13045A1015098B5700124C43 /* MessengerIDGenerator.m */; };
+		13045A1415098B5700124C43 /* MessengerIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 13045A1015098B5700124C43 /* MessengerIDGenerator.m */; };
+		13045A1515098B5700124C43 /* MessengerSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 13045A1215098B5700124C43 /* MessengerSystem.m */; };
+		13045A1615098B5700124C43 /* MessengerSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 13045A1215098B5700124C43 /* MessengerSystem.m */; };
+		13045A1B15098BB900124C43 /* InitializeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13045A1A15098BB900124C43 /* InitializeTests.m */; };
+		13045A1F15098CD700124C43 /* KSXibeditableImplementedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 13045A1D15098CD700124C43 /* KSXibeditableImplementedClass.m */; };
+		13045A2015098CD700124C43 /* KSXibeditableImplementedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 13045A1D15098CD700124C43 /* KSXibeditableImplementedClass.m */; };
+		13045A2115098CD700124C43 /* KSXibeditableImplementedClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13045A1E15098CD700124C43 /* KSXibeditableImplementedClass.xib */; };
+		13045A2215098CD700124C43 /* KSXibeditableImplementedClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13045A1E15098CD700124C43 /* KSXibeditableImplementedClass.xib */; };
+		13045A2715098D1C00124C43 /* KSXibeditableCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 13045A2515098D1C00124C43 /* KSXibeditableCategory.m */; };
+		13045A2815098D1C00124C43 /* KSXibeditableCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 13045A2515098D1C00124C43 /* KSXibeditableCategory.m */; };
+		13045A2915098D1C00124C43 /* KSXibeditableCategory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13045A2615098D1C00124C43 /* KSXibeditableCategory.xib */; };
+		13045A2A15098D1C00124C43 /* KSXibeditableCategory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13045A2615098D1C00124C43 /* KSXibeditableCategory.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,17 @@
 		13030298150882AE00DBCB47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1303029A150882AE00DBCB47 /* XibeditableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XibeditableTests.h; sourceTree = "<group>"; };
 		1303029B150882AE00DBCB47 /* XibeditableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibeditableTests.m; sourceTree = "<group>"; };
+		13045A0F15098B5700124C43 /* MessengerIDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessengerIDGenerator.h; sourceTree = "<group>"; };
+		13045A1015098B5700124C43 /* MessengerIDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessengerIDGenerator.m; sourceTree = "<group>"; };
+		13045A1115098B5700124C43 /* MessengerSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessengerSystem.h; sourceTree = "<group>"; };
+		13045A1215098B5700124C43 /* MessengerSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessengerSystem.m; sourceTree = "<group>"; };
+		13045A1A15098BB900124C43 /* InitializeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializeTests.m; sourceTree = "<group>"; };
+		13045A1C15098CD700124C43 /* KSXibeditableImplementedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSXibeditableImplementedClass.h; sourceTree = "<group>"; };
+		13045A1D15098CD700124C43 /* KSXibeditableImplementedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSXibeditableImplementedClass.m; sourceTree = "<group>"; };
+		13045A1E15098CD700124C43 /* KSXibeditableImplementedClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSXibeditableImplementedClass.xib; sourceTree = "<group>"; };
+		13045A2415098D1C00124C43 /* KSXibeditableCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSXibeditableCategory.h; sourceTree = "<group>"; };
+		13045A2515098D1C00124C43 /* KSXibeditableCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSXibeditableCategory.m; sourceTree = "<group>"; };
+		13045A2615098D1C00124C43 /* KSXibeditableCategory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSXibeditableCategory.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +130,12 @@
 		1303027C150882AE00DBCB47 /* Xibeditable */ = {
 			isa = PBXGroup;
 			children = (
+				13045A1815098B6000124C43 /* MessengerSystem */,
 				13030285150882AE00DBCB47 /* TestAppDelegate.h */,
 				13030286150882AE00DBCB47 /* TestAppDelegate.m */,
 				1303027D150882AE00DBCB47 /* Supporting Files */,
+				13045A2315098CE000124C43 /* KSXibeditableImplemented */,
+				13045A2B15098D2400124C43 /* KSXibeditableCategory */,
 			);
 			path = Xibeditable;
 			sourceTree = "<group>";
@@ -130,6 +157,7 @@
 				1303029A150882AE00DBCB47 /* XibeditableTests.h */,
 				1303029B150882AE00DBCB47 /* XibeditableTests.m */,
 				13030295150882AE00DBCB47 /* Supporting Files */,
+				13045A1A15098BB900124C43 /* InitializeTests.m */,
 			);
 			path = XibeditableTests;
 			sourceTree = "<group>";
@@ -141,6 +169,37 @@
 				13030297150882AE00DBCB47 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13045A1815098B6000124C43 /* MessengerSystem */ = {
+			isa = PBXGroup;
+			children = (
+				13045A0F15098B5700124C43 /* MessengerIDGenerator.h */,
+				13045A1015098B5700124C43 /* MessengerIDGenerator.m */,
+				13045A1115098B5700124C43 /* MessengerSystem.h */,
+				13045A1215098B5700124C43 /* MessengerSystem.m */,
+			);
+			name = MessengerSystem;
+			sourceTree = "<group>";
+		};
+		13045A2315098CE000124C43 /* KSXibeditableImplemented */ = {
+			isa = PBXGroup;
+			children = (
+				13045A1C15098CD700124C43 /* KSXibeditableImplementedClass.h */,
+				13045A1D15098CD700124C43 /* KSXibeditableImplementedClass.m */,
+				13045A1E15098CD700124C43 /* KSXibeditableImplementedClass.xib */,
+			);
+			name = KSXibeditableImplemented;
+			sourceTree = "<group>";
+		};
+		13045A2B15098D2400124C43 /* KSXibeditableCategory */ = {
+			isa = PBXGroup;
+			children = (
+				13045A2415098D1C00124C43 /* KSXibeditableCategory.h */,
+				13045A2515098D1C00124C43 /* KSXibeditableCategory.m */,
+				13045A2615098D1C00124C43 /* KSXibeditableCategory.xib */,
+			);
+			name = KSXibeditableCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13030281150882AE00DBCB47 /* InfoPlist.strings in Resources */,
+				13045A2115098CD700124C43 /* KSXibeditableImplementedClass.xib in Resources */,
+				13045A2915098D1C00124C43 /* KSXibeditableCategory.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13030299150882AE00DBCB47 /* InfoPlist.strings in Resources */,
+				13045A2215098CD700124C43 /* KSXibeditableImplementedClass.xib in Resources */,
+				13045A2A15098D1C00124C43 /* KSXibeditableCategory.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +314,10 @@
 			files = (
 				13030283150882AE00DBCB47 /* main.m in Sources */,
 				13030287150882AE00DBCB47 /* TestAppDelegate.m in Sources */,
+				13045A1315098B5700124C43 /* MessengerIDGenerator.m in Sources */,
+				13045A1515098B5700124C43 /* MessengerSystem.m in Sources */,
+				13045A1F15098CD700124C43 /* KSXibeditableImplementedClass.m in Sources */,
+				13045A2715098D1C00124C43 /* KSXibeditableCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +326,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1303029C150882AE00DBCB47 /* XibeditableTests.m in Sources */,
+				13045A1415098B5700124C43 /* MessengerIDGenerator.m in Sources */,
+				13045A1615098B5700124C43 /* MessengerSystem.m in Sources */,
+				13045A1B15098BB900124C43 /* InitializeTests.m in Sources */,
+				13045A2015098CD700124C43 /* KSXibeditableImplementedClass.m in Sources */,
+				13045A2815098D1C00124C43 /* KSXibeditableCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +484,7 @@
 				130302A1150882AE00DBCB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		130302A2150882AE00DBCB47 /* Build configuration list for PBXNativeTarget "XibeditableTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +493,7 @@
 				130302A4150882AE00DBCB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
